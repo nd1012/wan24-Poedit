@@ -1,0 +1,306 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: wan24.Poedit
+  name: wan24.Poedit
+  href: api/wan24.Poedit.html
+  commentId: N:wan24.Poedit
+  fullName: wan24.Poedit
+  nameWithType: wan24.Poedit
+- uid: wan24.Poedit.PoeditTranslationTerms
+  name: PoeditTranslationTerms
+  href: api/wan24.Poedit.PoeditTranslationTerms.html
+  commentId: T:wan24.Poedit.PoeditTranslationTerms
+  fullName: wan24.Poedit.PoeditTranslationTerms
+  nameWithType: PoeditTranslationTerms
+- uid: wan24.Poedit.PoeditTranslationTerms.#ctor(Karambolo.PO.POCatalog@)
+  name: PoeditTranslationTerms(in POCatalog)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms__ctor_Karambolo_PO_POCatalog__
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.#ctor(Karambolo.PO.POCatalog@)
+  name.vb: New(POCatalog)
+  fullName: wan24.Poedit.PoeditTranslationTerms.PoeditTranslationTerms(in Karambolo.PO.POCatalog)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.New(Karambolo.PO.POCatalog)
+  nameWithType: PoeditTranslationTerms.PoeditTranslationTerms(in POCatalog)
+  nameWithType.vb: PoeditTranslationTerms.New(POCatalog)
+- uid: wan24.Poedit.PoeditTranslationTerms.#ctor*
+  name: PoeditTranslationTerms
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms__ctor_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: wan24.Poedit.PoeditTranslationTerms.PoeditTranslationTerms
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.New
+  nameWithType: PoeditTranslationTerms.PoeditTranslationTerms
+  nameWithType.vb: PoeditTranslationTerms.New
+- uid: wan24.Poedit.PoeditTranslationTerms.Catalog
+  name: Catalog
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Catalog
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Catalog
+  fullName: wan24.Poedit.PoeditTranslationTerms.Catalog
+  nameWithType: PoeditTranslationTerms.Catalog
+- uid: wan24.Poedit.PoeditTranslationTerms.Catalog*
+  name: Catalog
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Catalog_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.Catalog
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.Catalog
+  nameWithType: PoeditTranslationTerms.Catalog
+- uid: wan24.Poedit.PoeditTranslationTerms.ContainsKey(System.String)
+  name: ContainsKey(string)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_ContainsKey_System_String_
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.ContainsKey(System.String)
+  name.vb: ContainsKey(String)
+  fullName: wan24.Poedit.PoeditTranslationTerms.ContainsKey(string)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.ContainsKey(String)
+  nameWithType: PoeditTranslationTerms.ContainsKey(string)
+  nameWithType.vb: PoeditTranslationTerms.ContainsKey(String)
+- uid: wan24.Poedit.PoeditTranslationTerms.ContainsKey*
+  name: ContainsKey
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_ContainsKey_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.ContainsKey
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.ContainsKey
+  nameWithType: PoeditTranslationTerms.ContainsKey
+- uid: wan24.Poedit.PoeditTranslationTerms.Count
+  name: Count
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Count
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Count
+  fullName: wan24.Poedit.PoeditTranslationTerms.Count
+  nameWithType: PoeditTranslationTerms.Count
+- uid: wan24.Poedit.PoeditTranslationTerms.Count*
+  name: Count
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Count_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.Count
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.Count
+  nameWithType: PoeditTranslationTerms.Count
+- uid: wan24.Poedit.PoeditTranslationTerms.FromBytes(System.Byte[]@)
+  name: FromBytes(in byte[])
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromBytes_System_Byte____
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromBytes(System.Byte[]@)
+  name.vb: FromBytes(Byte())
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromBytes(in byte[])
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.FromBytes(Byte())
+  nameWithType: PoeditTranslationTerms.FromBytes(in byte[])
+  nameWithType.vb: PoeditTranslationTerms.FromBytes(Byte())
+- uid: wan24.Poedit.PoeditTranslationTerms.FromBytes*
+  name: FromBytes
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromBytes_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromBytes
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromBytes
+  nameWithType: PoeditTranslationTerms.FromBytes
+- uid: wan24.Poedit.PoeditTranslationTerms.FromFile(System.String@)
+  name: FromFile(in string)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromFile_System_String__
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromFile(System.String@)
+  name.vb: FromFile(String)
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromFile(in string)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.FromFile(String)
+  nameWithType: PoeditTranslationTerms.FromFile(in string)
+  nameWithType.vb: PoeditTranslationTerms.FromFile(String)
+- uid: wan24.Poedit.PoeditTranslationTerms.FromFile*
+  name: FromFile
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromFile_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromFile
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromFile
+  nameWithType: PoeditTranslationTerms.FromFile
+- uid: wan24.Poedit.PoeditTranslationTerms.FromFileAsync(System.String,System.Threading.CancellationToken)
+  name: FromFileAsync(string, CancellationToken)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromFileAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromFileAsync(System.String,System.Threading.CancellationToken)
+  name.vb: FromFileAsync(String, CancellationToken)
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromFileAsync(string, System.Threading.CancellationToken)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.FromFileAsync(String, System.Threading.CancellationToken)
+  nameWithType: PoeditTranslationTerms.FromFileAsync(string, CancellationToken)
+  nameWithType.vb: PoeditTranslationTerms.FromFileAsync(String, CancellationToken)
+- uid: wan24.Poedit.PoeditTranslationTerms.FromFileAsync*
+  name: FromFileAsync
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromFileAsync_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromFileAsync
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromFileAsync
+  nameWithType: PoeditTranslationTerms.FromFileAsync
+- uid: wan24.Poedit.PoeditTranslationTerms.FromStream(System.IO.Stream@)
+  name: FromStream(in Stream)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromStream_System_IO_Stream__
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromStream(System.IO.Stream@)
+  name.vb: FromStream(Stream)
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromStream(in System.IO.Stream)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.FromStream(System.IO.Stream)
+  nameWithType: PoeditTranslationTerms.FromStream(in Stream)
+  nameWithType.vb: PoeditTranslationTerms.FromStream(Stream)
+- uid: wan24.Poedit.PoeditTranslationTerms.FromStream*
+  name: FromStream
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromStream_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromStream
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromStream
+  nameWithType: PoeditTranslationTerms.FromStream
+- uid: wan24.Poedit.PoeditTranslationTerms.FromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+  name: FromStreamAsync(Stream, CancellationToken)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromStreamAsync_System_IO_Stream_System_Threading_CancellationToken_
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromStreamAsync(System.IO.Stream,System.Threading.CancellationToken)
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromStreamAsync(System.IO.Stream, System.Threading.CancellationToken)
+  nameWithType: PoeditTranslationTerms.FromStreamAsync(Stream, CancellationToken)
+- uid: wan24.Poedit.PoeditTranslationTerms.FromStreamAsync*
+  name: FromStreamAsync
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromStreamAsync_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromStreamAsync
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromStreamAsync
+  nameWithType: PoeditTranslationTerms.FromStreamAsync
+- uid: wan24.Poedit.PoeditTranslationTerms.FromString(System.String@)
+  name: FromString(in string)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromString_System_String__
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.FromString(System.String@)
+  name.vb: FromString(String)
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromString(in string)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.FromString(String)
+  nameWithType: PoeditTranslationTerms.FromString(in string)
+  nameWithType.vb: PoeditTranslationTerms.FromString(String)
+- uid: wan24.Poedit.PoeditTranslationTerms.FromString*
+  name: FromString
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_FromString_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.FromString
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.FromString
+  nameWithType: PoeditTranslationTerms.FromString
+- uid: wan24.Poedit.PoeditTranslationTerms.GetEnumerator
+  name: GetEnumerator()
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_GetEnumerator
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.GetEnumerator
+  fullName: wan24.Poedit.PoeditTranslationTerms.GetEnumerator()
+  nameWithType: PoeditTranslationTerms.GetEnumerator()
+- uid: wan24.Poedit.PoeditTranslationTerms.GetEnumerator*
+  name: GetEnumerator
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_GetEnumerator_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.GetEnumerator
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.GetEnumerator
+  nameWithType: PoeditTranslationTerms.GetEnumerator
+- uid: wan24.Poedit.PoeditTranslationTerms.GetTerm(System.String@,System.Int32@,System.String[])
+  name: GetTerm(in string, in int, params string[])
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_GetTerm_System_String__System_Int32__System_String___
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.GetTerm(System.String@,System.Int32@,System.String[])
+  name.vb: GetTerm(String, Integer, ParamArray String())
+  fullName: wan24.Poedit.PoeditTranslationTerms.GetTerm(in string, in int, params string[])
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.GetTerm(String, Integer, ParamArray String())
+  nameWithType: PoeditTranslationTerms.GetTerm(in string, in int, params string[])
+  nameWithType.vb: PoeditTranslationTerms.GetTerm(String, Integer, ParamArray String())
+- uid: wan24.Poedit.PoeditTranslationTerms.GetTerm(System.String@,System.String[])
+  name: GetTerm(in string, params string[])
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_GetTerm_System_String__System_String___
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.GetTerm(System.String@,System.String[])
+  name.vb: GetTerm(String, ParamArray String())
+  fullName: wan24.Poedit.PoeditTranslationTerms.GetTerm(in string, params string[])
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.GetTerm(String, ParamArray String())
+  nameWithType: PoeditTranslationTerms.GetTerm(in string, params string[])
+  nameWithType.vb: PoeditTranslationTerms.GetTerm(String, ParamArray String())
+- uid: wan24.Poedit.PoeditTranslationTerms.GetTerm*
+  name: GetTerm
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_GetTerm_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.GetTerm
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.GetTerm
+  nameWithType: PoeditTranslationTerms.GetTerm
+- uid: wan24.Poedit.PoeditTranslationTerms.Item(System.String@,System.Int32@,System.String[])
+  name: this[string, int, string[]]
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Item_System_String__System_Int32__System_String___
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Item(System.String@,System.Int32@,System.String[])
+  name.vb: this[](String, Integer, String())
+  fullName: wan24.Poedit.PoeditTranslationTerms.this[string, int, string[]]
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.this[](String, Integer, String())
+  nameWithType: PoeditTranslationTerms.this[string, int, string[]]
+  nameWithType.vb: PoeditTranslationTerms.this[](String, Integer, String())
+- uid: wan24.Poedit.PoeditTranslationTerms.Item(System.String@,System.String[])
+  name: this[string, string[]]
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Item_System_String__System_String___
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Item(System.String@,System.String[])
+  name.vb: this[](String, String())
+  fullName: wan24.Poedit.PoeditTranslationTerms.this[string, string[]]
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.this[](String, String())
+  nameWithType: PoeditTranslationTerms.this[string, string[]]
+  nameWithType.vb: PoeditTranslationTerms.this[](String, String())
+- uid: wan24.Poedit.PoeditTranslationTerms.Item*
+  name: this
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Item_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: wan24.Poedit.PoeditTranslationTerms.this
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.this[]
+  nameWithType: PoeditTranslationTerms.this
+  nameWithType.vb: PoeditTranslationTerms.this[]
+- uid: wan24.Poedit.PoeditTranslationTerms.Keys
+  name: Keys
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Keys
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Keys
+  fullName: wan24.Poedit.PoeditTranslationTerms.Keys
+  nameWithType: PoeditTranslationTerms.Keys
+- uid: wan24.Poedit.PoeditTranslationTerms.Keys*
+  name: Keys
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Keys_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.Keys
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.Keys
+  nameWithType: PoeditTranslationTerms.Keys
+- uid: wan24.Poedit.PoeditTranslationTerms.PluralSupport
+  name: PluralSupport
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_PluralSupport
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.PluralSupport
+  fullName: wan24.Poedit.PoeditTranslationTerms.PluralSupport
+  nameWithType: PoeditTranslationTerms.PluralSupport
+- uid: wan24.Poedit.PoeditTranslationTerms.PluralSupport*
+  name: PluralSupport
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_PluralSupport_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.PluralSupport
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.PluralSupport
+  nameWithType: PoeditTranslationTerms.PluralSupport
+- uid: wan24.Poedit.PoeditTranslationTerms.StringLocalizer(System.String@,System.Object[]@)
+  name: StringLocalizer(in string, in object[])
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_StringLocalizer_System_String__System_Object____
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.StringLocalizer(System.String@,System.Object[]@)
+  name.vb: StringLocalizer(String, Object())
+  fullName: wan24.Poedit.PoeditTranslationTerms.StringLocalizer(in string, in object[])
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.StringLocalizer(String, Object())
+  nameWithType: PoeditTranslationTerms.StringLocalizer(in string, in object[])
+  nameWithType.vb: PoeditTranslationTerms.StringLocalizer(String, Object())
+- uid: wan24.Poedit.PoeditTranslationTerms.StringLocalizer*
+  name: StringLocalizer
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_StringLocalizer_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.StringLocalizer
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.StringLocalizer
+  nameWithType: PoeditTranslationTerms.StringLocalizer
+- uid: wan24.Poedit.PoeditTranslationTerms.TryGetValue(System.String,System.String@)
+  name: TryGetValue(string, out string)
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_TryGetValue_System_String_System_String__
+  commentId: M:wan24.Poedit.PoeditTranslationTerms.TryGetValue(System.String,System.String@)
+  name.vb: TryGetValue(String, String)
+  fullName: wan24.Poedit.PoeditTranslationTerms.TryGetValue(string, out string)
+  fullName.vb: wan24.Poedit.PoeditTranslationTerms.TryGetValue(String, String)
+  nameWithType: PoeditTranslationTerms.TryGetValue(string, out string)
+  nameWithType.vb: PoeditTranslationTerms.TryGetValue(String, String)
+- uid: wan24.Poedit.PoeditTranslationTerms.TryGetValue*
+  name: TryGetValue
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_TryGetValue_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.TryGetValue
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.TryGetValue
+  nameWithType: PoeditTranslationTerms.TryGetValue
+- uid: wan24.Poedit.PoeditTranslationTerms.Values
+  name: Values
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Values
+  commentId: P:wan24.Poedit.PoeditTranslationTerms.Values
+  fullName: wan24.Poedit.PoeditTranslationTerms.Values
+  nameWithType: PoeditTranslationTerms.Values
+- uid: wan24.Poedit.PoeditTranslationTerms.Values*
+  name: Values
+  href: api/wan24.Poedit.PoeditTranslationTerms.html#wan24_Poedit_PoeditTranslationTerms_Values_
+  commentId: Overload:wan24.Poedit.PoeditTranslationTerms.Values
+  isSpec: "True"
+  fullName: wan24.Poedit.PoeditTranslationTerms.Values
+  nameWithType: PoeditTranslationTerms.Values

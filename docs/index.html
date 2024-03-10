@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>wan24-Poedit | wan24-Poedit </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="wan24-Poedit | wan24-Poedit ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/config.css">
+      <link rel="stylesheet" href="styles/singulink.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="index.html">
+              <img src="logo.svg" alt="" class="logomark">
+              <span class="brand-title"></span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="index.html">
+                          <img src="logo.svg" alt="" class="logomark">
+                          <span class="brand-title"></span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  (c) 2024 Andreas Zimmermann, wan24.de
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/nd1012/wan24-Poedit/blob/main/src/wan24-Poedit Docs/index.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="wan24-poedit">wan24-Poedit</h1>
+
+<p>This library contains an adapter for using Poedit PO files with <code>wan24-Core</code>
+translation helpers. <a href="https://github.com/adams85/po">Karambolo.PO</a> is being
+referenced for that, 'cause no PO format parsing is implemented in
+<code>wan24-Poedit</code>.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="how-to-get-it">How to get it</h3>
+<p>This library is available as
+<a href="https://www.nuget.org/packages/wan24-Poedit/">NuGet package &quot;wan24-Poedit&quot;</a>.</p>
+<h3 id="loading-a-translation-from-poedit-po-format">Loading a translation from Poedit PO format</h3>
+<pre><code class="lang-cs">// From a PO file
+PoeditTranslationTerms terms = PoeditTranslationTerms.FromFile(&quot;/path/to/file.po&quot;);
+PoeditTranslationTerms terms = await PoeditTranslationTerms.FromFileAsync(&quot;/path/to/file.po&quot;);
+
+// From a PO stream
+PoeditTranslationTerms terms = PoeditTranslationTerms.FromStream(poStream);
+PoeditTranslationTerms terms = await PoeditTranslationTerms.FromStreamAsync(poStream);
+
+// From a PO string
+PoeditTranslationTerms terms = PoeditTranslationTerms.FromString(poString);
+
+// From a byte array (UTF-8 encoded PO string)
+PoeditTranslationTerms terms = PoeditTranslationTerms.FromBytes(poData);
+
+// From a POCatalog
+PoeditTranslationTerms terms = new(poCatalog);
+</code></pre>
+<p>The created <code>terms</code> instance can be used for the <code>wan24-Core</code> <code>Translation</code>.
+Please refer to the <code>wan24-Core</code> documentation for more details about that.</p>
+<h3 id="creating-a-po-file-from-source-code">Creating a PO file from source code</h3>
+<p>This library only contains PO reading helpers for working with the
+<code>wan24-Core</code> translation helpers. For creating a PO file you might want to use
+the dotnet tool
+<a href="https://github.com/nd1012/wan24-PoeditParser">wan24-PoeditParser</a>, which is
+able to parse C# source code (and any other source language code) and create a
+PO file, which can be used with Poedit. Also the <code>wan24-PoeditParser</code> can be
+used as custom extractor for the Poedit GUI.</p>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>(c) 2024 Andreas Zimmermann, wan24.de</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="styles/docfx.js"></script>
+        <script type="text/javascript" src="styles/main.js"></script>
+        <script type="text/javascript" src="styles/singulink.js"></script>    </body>
+</html>

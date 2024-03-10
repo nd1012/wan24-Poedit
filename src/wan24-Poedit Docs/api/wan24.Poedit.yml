@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: wan24.Poedit
+  commentId: N:wan24.Poedit
+  id: wan24.Poedit
+  children:
+  - wan24.Poedit.PoeditTranslationTerms
+  langs:
+  - csharp
+  - vb
+  name: wan24.Poedit
+  nameWithType: wan24.Poedit
+  fullName: wan24.Poedit
+  type: Namespace
+  assemblies:
+  - wan24Poedit
+references:
+- uid: wan24.Poedit.PoeditTranslationTerms
+  commentId: T:wan24.Poedit.PoeditTranslationTerms
+  parent: wan24.Poedit
+  href: wan24.Poedit.PoeditTranslationTerms.html
+  name: PoeditTranslationTerms
+  nameWithType: PoeditTranslationTerms
+  fullName: wan24.Poedit.PoeditTranslationTerms
+- uid: wan24.Poedit
+  commentId: N:wan24.Poedit
+  href: wan24.html
+  name: wan24.Poedit
+  nameWithType: wan24.Poedit
+  fullName: wan24.Poedit
+  spec.csharp:
+  - uid: wan24
+    name: wan24
+    href: wan24.html
+  - name: .
+  - uid: wan24.Poedit
+    name: Poedit
+    href: wan24.Poedit.html
+  spec.vb:
+  - uid: wan24
+    name: wan24
+    href: wan24.html
+  - name: .
+  - uid: wan24.Poedit
+    name: Poedit
+    href: wan24.Poedit.html
