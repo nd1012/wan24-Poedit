@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Poedit", "wan24-Poedit\wan24-Poedit.csproj", "{87C583A4-B091-4D86-99B5-992DCB106507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wan24-Core", "..\..\wan24-Core\src\Wan24-Core\Wan24-Core.csproj", "{58C54393-7BC9-4F02-8F47-40CF834934A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Trunk|Any CPU = Trunk|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{87C583A4-B091-4D86-99B5-992DCB106507}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
+		{58C54393-7BC9-4F02-8F47-40CF834934A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C54393-7BC9-4F02-8F47-40CF834934A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C54393-7BC9-4F02-8F47-40CF834934A7}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{58C54393-7BC9-4F02-8F47-40CF834934A7}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41FCB1FF-12FE-498A-BB75-E9972A62A0F5}
+	EndGlobalSection
+EndGlobal
