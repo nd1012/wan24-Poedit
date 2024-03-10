@@ -16,10 +16,10 @@ namespace wan24.Poedit
     public class PoeditTranslationTerms(in POCatalog po) : ITranslationTerms
     {
         /// <inheritdoc/>
-        public string this[in string key, params string[] values] => GetTerm(key,values);
+        public virtual string this[in string key, params string[] values] => GetTerm(key,values);
 
         /// <inheritdoc/>
-        public string this[in string key, in int count, params string[] values] => GetTerm(key, values);
+        public virtual string this[in string key, in int count, params string[] values] => GetTerm(key, values);
 
         /// <inheritdoc/>
         string IReadOnlyDictionary<string, string>.this[string key] => this[key];
@@ -36,22 +36,22 @@ namespace wan24.Poedit
         public POCatalog Catalog { get; } = po;
 
         /// <inheritdoc/>
-        public bool PluralSupport => Catalog.PluralFormCount > 0;
+        public virtual bool PluralSupport => Catalog.PluralFormCount > 0;
 
         /// <inheritdoc/>
-        public IEnumerable<string> Keys => Catalog.Keys.Select(k => k.Id);
+        public virtual IEnumerable<string> Keys => Catalog.Keys.Select(k => k.Id);
 
         /// <inheritdoc/>
-        public IEnumerable<string> Values => Catalog.Values.Select(v => v[0]);
+        public virtual IEnumerable<string> Values => Catalog.Values.Select(v => v[0]);
 
         /// <inheritdoc/>
-        public int Count => Catalog.Count;
+        public virtual int Count => Catalog.Count;
 
         /// <inheritdoc/>
-        public bool ContainsKey(string key) => Catalog.Contains(new POKey(key));
+        public virtual bool ContainsKey(string key) => Catalog.Contains(new POKey(key));
 
         /// <inheritdoc/>
-        public string GetTerm(in string key, params string[] values)
+        public virtual string GetTerm(in string key, params string[] values)
         {
             string res = TryGetValue(key, out string? value) ? value : key;
             if (values.Length > 0)
@@ -65,7 +65,7 @@ namespace wan24.Poedit
         }
 
         /// <inheritdoc/>
-        public string GetTerm(in string key, in int count, params string[] values)
+        public virtual string GetTerm(in string key, in int count, params string[] values)
         {
             if (!PluralSupport) throw new NotSupportedException();
             string res = Catalog.GetTranslation(new(key), count);
@@ -80,7 +80,7 @@ namespace wan24.Poedit
         }
 
         /// <inheritdoc/>
-        public bool TryGetValue(string key, [MaybeNullWhen(false)] out string value)
+        public virtual bool TryGetValue(string key, [MaybeNullWhen(false)] out string value)
         {
             if (!Catalog.TryGetValue(new(key), out IPOEntry? entry))
             {
@@ -92,7 +92,7 @@ namespace wan24.Poedit
         }
 
         /// <inheritdoc/>
-        public IEnumerator<KeyValuePair<string, string>> GetEnumerator() => Keys.Select(k => new KeyValuePair<string, string>(k, GetTerm(k))).GetEnumerator();
+        public virtual IEnumerator<KeyValuePair<string, string>> GetEnumerator() => Keys.Select(k => new KeyValuePair<string, string>(k, GetTerm(k))).GetEnumerator();
 
         /// <inheritdoc/>
         IEnumerable<LocalizedString> IStringLocalizer.GetAllStrings(bool includeParentCultures) => Keys.Select(k => StringLocalizer(k, []));
