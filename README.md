@@ -1,5 +1,7 @@
 # wan24-Poedit
 
+**NOTE**: This project is not going to be maintenanced anymore and has no direct replacement. Instead of using gettext PO files for l10n in your .NET app, you may want to use [`wan24-I8NTool`](https://github.com/nd1012/wan24-I8NTool) to create i8n files for use with `wan24-I8N`.
+
 This library contains an adapter for using Poedit PO files with `wan24-Core` 
 translation helpers. [Karambolo.PO](https://github.com/adams85/po) is being 
 referenced for that, 'cause no PO format parsing is implemented in 
